@@ -1,0 +1,38 @@
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.bannar{
+ 
+  position: relative;
+  display: inline-block;
+}
+.bannar img {
+  display: block;
+  filter: brightness(50%);
+  margin: 50px 140px;
+}
+.bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.L-heading {
+    font-size: 32px;
+    color: white;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: bolder;
+    color: white;
+}

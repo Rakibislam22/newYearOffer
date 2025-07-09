@@ -11,11 +11,12 @@
  
   position: relative;
   display: inline-block;
+  margin: 50px 140px;
 }
 .bannar img {
   display: block;
   filter: brightness(50%);
-  margin: 50px 140px;
+  
 }
 .bg {
   position: absolute;
@@ -35,4 +36,28 @@
     font-size: 72px;
     font-weight: bolder;
     color: white;
+}
+.main65 {
+    text-align: center;
+}
+
+.title {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.s-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+
+.f-heading {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+
+.off {
+    margin: 0px 399px;
 }

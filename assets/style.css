@@ -13,7 +13,7 @@
   display: inline-block;
   margin: 50px 140px;
 }
-.bannar img {
+.bannar .image {
   display: block;
   filter: brightness(50%);
   
@@ -34,7 +34,7 @@
 
 .heading {
     font-size: 72px;
-    font-weight: bolder;
+    font-weight: 900;
     color: white;
 }
 .main65 {
@@ -60,4 +60,52 @@
 
 .off {
     margin: 0px 399px;
+}
+
+/* victory section */
+.vector {
+  font-size: 64px;
+  text-align: left;
+  font-weight: 900;
+  color: white;
+  padding-right: 20%;
+}
+.vector-des {
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  padding-right: 50px;
+}
+
+.bg-v {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+}
+
+
+.bg-pic {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+}
+
+.do {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.bg-v button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: transparent;
+  padding-left: 20px;
 }

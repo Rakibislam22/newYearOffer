@@ -6,12 +6,16 @@
   font-variation-settings:
     "wdth" 100;
 }
+.margin{
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 50px;
+}
 
 .bannar{
  
   position: relative;
   display: inline-block;
-  margin: 50px 140px;
 }
 .bannar .image {
   display: block;
@@ -59,7 +63,7 @@
 }
 
 .off {
-    margin: 0px 399px;
+    margin: 0px 260px;
 }
 
 /* victory section */
@@ -96,10 +100,10 @@
   text-align: left;
 }
 
-.do {
+ .do {
   margin-top: 120px;
   margin-bottom: 120px;
-}
+} 
 
 .bg-v button {
   font-size: 20px;
@@ -120,8 +124,6 @@
     rgba(255, 0, 0, 0.0) 100%     /* Fully transparent bottom */
   );
   padding: 110px 370px;
-  margin-left: 140px;
-  margin-right: 120px;
   border-radius: 20px;
 }
 
@@ -137,3 +139,80 @@
     border: none;
     border-radius: 8px;
 }
+
+.third-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.left {
+  max-width: 380px;
+}
+.right {
+  max-width: 280px;
+  margin-left: 40px;
+}
+
+.circle-wrapper {
+  width: 430px;
+  height: 430px;
+  border: 15px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.s-new {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+}
+
+.caption {
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+}
+
+.des {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.r-cap {
+  font-size: 48px;
+  font-weight: 900;
+  color: #FF0000;
+}
+
+.what {
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+.what-t {
+  font-size: 72px;
+  font-weight: 900;
+  color: #070211;
+}
+.what-t span {
+  color: #FF0000;
+}
+
+.what-des {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6) ;
+}
+.whattt {
+  text-align: center;
+  margin-top: 120px;
+}
+
